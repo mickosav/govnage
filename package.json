@@ -1,0 +1,21 @@
+{
+    "name": "govnage",
+    "displayName": "govnage",
+    "description": "my stupid theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "govnage",
+                "uiTheme": "vs-dark",
+                "path": "./themes/govnage-color-theme.json"
+            }
+        ]
+    }
+}
