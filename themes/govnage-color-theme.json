@@ -314,15 +314,6 @@
 			}
 		},
 		{
-			"name": "Accessor",
-			"scope": [
-				"punctuation.accessor"
-			],
-			"settings": {
-				"foreground": "#f29e74"
-			}
-		},
-		{
 			"name": "Types fixes",
 			"scope": [
 				"source.java storage.type",
