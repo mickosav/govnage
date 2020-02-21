@@ -254,7 +254,7 @@
 				"variable.language"
 			],
 			"settings": {
-				"foreground": "#d4bfff"
+				"foreground": "#79BAC9",
 			}
 		},
 		{
@@ -282,7 +282,7 @@
 				"keyword.control"
 			],
 			"settings": {
-				"foreground": "#66f2ff"
+				"foreground": "#51E8CB",
 			}
 		},
 		{

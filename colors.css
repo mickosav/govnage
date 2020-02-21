@@ -1,9 +1,11 @@
 :root {
     --yellow: #ffcc66;
+    --storage-orange: #ffa759;
     --operators: #f29e74;
     --fire: #F17F78;
     --green: #a1e244;
-    --blue: #5ccfe6;
+    --blue-tag: #5ccfe6;
     --if-statements: #66f2ff;
-    --this-purple: #d4bfff;
+    --teal: #51E8CB;
+    --this-color: #79BAC9;
   }
