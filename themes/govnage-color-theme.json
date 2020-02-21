@@ -88,7 +88,7 @@
 		"editorLink.activeForeground": "#ffcc66",
 		"editor.rangeHighlightBackground": "#191e2a",
 		"editorWhitespace.foreground": "#707a8c66",
-		"editorIndentGuide.background": "#1f2430", // background color (so it's not visible)
+		"editorIndentGuide.background": "#fff0", // transparent
 		"editorIndentGuide.activeBackground": "#ffcc6680",
 		"editorRuler.foreground": "#707a8c4d",
 		"editorCodeLens.foreground": "#5c6773",
