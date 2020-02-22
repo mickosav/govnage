@@ -97,7 +97,7 @@
         "scrollbarSlider.activeBackground": "#9cacff22",
 
         "selection.background": "#6f7bb635",
-        "editor.background": "#24283b",
+        "editor.background": "#1f2335",
         "editor.foreground": "#a9b1d6",
         "editorLink.activeForeground": "#a9b1d6",
 
@@ -115,7 +115,7 @@
         "editor.selectionHighlightBackground": "#6f7bb622",
 
         "editorCursor.foreground": "#c0caf5",
-        "editorIndentGuide.background": "#292e42",
+        "editorIndentGuide.background": "#262b41",
         "editorIndentGuide.activeBackground": "#3b4261",
         "editorLineNumber.foreground": "#3b4261",
         "editorLineNumber.activeForeground": "#737aa2",
@@ -312,7 +312,10 @@
                 "meta.directive.vue entity.other.attribute-name.html",
                 "tag.decorator.js entity.name.tag.js",
                 "tag.decorator.js punctuation.definition.tag.js",
-                "storage.modifier"
+				"storage.modifier",
+				"entity.other.attribute-name",
+				"keyword.operator.logical.python",
+				"variable.language"
             ],
             "settings": {
                 "fontStyle": "italic"
@@ -353,16 +356,9 @@
                 "constant.language",
                 "constant.numeric",
                 "support.constant",
-                // "constant.language.null",
-                // "constant.language.undefined",
-                // "constant.language.go",
-                // "constant.language.boolean",
-                // "constant.language.json",
-                // "constant.language.infinity",
-                // "constant.language.nan"
             ],
             "settings": {
-                "foreground": "#ff9e64"
+                "foreground": "#F7768E"
             }
         },
         {
@@ -447,17 +443,6 @@
             ],
             "settings": {
                 "foreground": "#2ac3de"
-            }
-        },
-        {
-            "name": "Spread",
-            "scope": [
-                "keyword.operator.spread",
-                "keyword.operator.rest"
-            ],
-            "settings": {
-                "foreground": "#f7768e",
-                "fontStyle": "bold"
             }
         },
         {
@@ -553,7 +538,37 @@
             "settings": {
                 "foreground": "#ba3c97"
             }
+		},
+		// Custom fixes:
+		{
+			"name": "Item access",
+			"scope": "meta.item-access.python",
+			"settings": {
+				"foreground": "#7DCFFF"
+			}
+		},
+		{
+			"name": "Function arguments",
+			"scope": [
+				"meta.function-call.arguments",
+				"meta.item-access.arguments",
+				"variable.other.readwrite" // not a python fix but the same color
+			],
+			"settings": {
+				"foreground": "#C0CAF5"
+			}
+		},
+		{
+			"name": "Function arguments",
+			"scope": [
+				"variable.legacy.builtin.python",
+				"support.type.python"
+			],
+			"settings": {
+				"foreground": "#E0AF68",
+			}
         },
+        // ^
         {
             "name": "Globals, PHP Constants, etc",
             "scope": [
