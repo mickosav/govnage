@@ -1,7 +1,7 @@
 {
-    "name": "govnage",
+    "name": "mickyo",
     "publisher": "micko",
-    "displayName": "govnage",
+    "displayName": "mickyo",
     "description": "my stupid theme",
     "version": "0.0.1",
     "engines": {
@@ -13,9 +13,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "govnage",
+                "label": "mickyo",
                 "uiTheme": "vs-dark",
-                "path": "./themes/govnage-color-theme.json"
+                "path": "./themes/mickyo-color-theme.json"
             }
         ]
     }
