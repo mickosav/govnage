@@ -404,7 +404,8 @@
             "name": "Storage Type",
             "scope": [
                 "storage.type",
-                "storage.modifier.async"
+                "storage.modifier.async",
+                "storage.type.function"
             ],
             "settings": {
                 "foreground": "#bb9af7"
@@ -478,6 +479,7 @@
         },
         {
             "name": "Import, Export, From, Default",
+
             "scope": [
                 "keyword.control.import",
                 "keyword.control.export",
@@ -511,7 +513,7 @@
             "name": "Keyword Operator, Arrow",
             "scope": [
                 "keyword.operator",
-                "storage.type.function"
+                "storage.type.function.arrow"
             ],
             "settings": {
                 "foreground":  "#fdca56"
