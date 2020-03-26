@@ -357,7 +357,7 @@
             }
         },
         {
-            "name": "NBoolean, Undefined, Null",
+            "name": "Boolean, Undefined, Null",
             "scope": [
                 "variable.other.constant",
                 "punctuation.definition.constant",
