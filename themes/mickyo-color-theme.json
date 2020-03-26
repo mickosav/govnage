@@ -802,7 +802,7 @@
                 "meta.property-list meta.at-rule.else"
             ],
             "settings": {
-                "foreground": "#ff9e64"
+                "foreground": "#FEB85C"
             }
         },
         {
@@ -862,7 +862,7 @@
             "name": "CSS value",
             "scope": "support.constant.property-value",
             "settings": {
-                "foreground": "#ff9e64"
+                "foreground": "#FEB85C"
             }
         },
         {
