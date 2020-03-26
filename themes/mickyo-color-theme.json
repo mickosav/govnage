@@ -348,12 +348,20 @@
             }
         },
         {
-            "name": "Number, Boolean, Undefined, Null",
+            "name": "Numbers",
+            "scope": [
+                "constant.numeric",
+            ],
+            "settings": {
+                "foreground": "#FDCA56",
+            }
+        },
+        {
+            "name": "NBoolean, Undefined, Null",
             "scope": [
                 "variable.other.constant",
                 "punctuation.definition.constant",
                 "constant.language",
-                "constant.numeric",
                 "support.constant",
             ],
             "settings": {
