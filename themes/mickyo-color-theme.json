@@ -651,18 +651,6 @@
             }
         },
         {
-            "name": "Function Argument",
-            "scope": [
-                "variable.parameter.function.language.special",
-                "variable.parameter",
-                "meta.function.parameters punctuation.definition.variable",
-                "meta.function.parameter variable"
-            ],
-            "settings": {
-                "foreground": "#e0af68" //#73daca
-            }
-        },
-        {
             "name": "Constant, Tag Attribute",
             "scope": [
                 "keyword.other.type.php",
