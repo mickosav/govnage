@@ -511,7 +511,7 @@
             "name": "Keyword Operator, Arrow",
             "scope": [
                 "keyword.operator",
-                "storage.type.function",
+                "storage.type.function"
             ],
             "settings": {
                 "foreground":  "#fdca56"
