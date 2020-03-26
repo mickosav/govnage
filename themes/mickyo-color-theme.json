@@ -417,7 +417,7 @@
                 "storage.modifier"
             ],
             "settings": {
-                "foreground": "#9d7cd8"
+                "foreground": "#BB9AF7"
             }
         },
         {
@@ -860,7 +860,7 @@
                 "keyword.control punctuation.definition.keyword"
             ],
             "settings": {
-                "foreground": "#9d7cd8"
+                "foreground": "#BB9AF7"
             }
         },
         {
