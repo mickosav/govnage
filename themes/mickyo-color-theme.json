@@ -450,7 +450,6 @@
         {
             "name": "Operator, Misc",
             "scope": [
-                "keyword.operator",
                 "keyword.control.as",
                 "keyword.other",
                 "keyword.operator.bitwise.shift",
@@ -509,18 +508,13 @@
             }
         },
         {
-            "name": "Keyword Operator Logical, Arrow, Ternary, Comparison",
+            "name": "Keyword Operator, Arrow",
             "scope": [
-                "keyword.operator.logical",
+                "keyword.operator",
                 "storage.type.function",
-                "keyword.operator.bitwise",
-                "keyword.operator.ternary",
-                "keyword.operator.comparison",
-                "keyword.operator.relational",
-                "keyword.operator.or.regexp"
             ],
             "settings": {
-                "foreground":  "#bb9af7"
+                "foreground":  "#fdca56"
             }
         },
         {
