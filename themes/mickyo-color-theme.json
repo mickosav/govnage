@@ -668,8 +668,7 @@
                 "keyword.other.type.php",
                 "storage.type.php",
                 "constant.character",
-                "constant.escape",
-                "keyword.other.unit"
+                "constant.escape"
             ],
             "settings": {
                 "foreground": "#bb9af7"
@@ -1025,7 +1024,7 @@
             "name": "CSS Units",
             "scope": "keyword.other.unit",
             "settings": {
-                "foreground": "#f7768e"
+                "foreground": "#FF9E64"
             }
         },
         {
