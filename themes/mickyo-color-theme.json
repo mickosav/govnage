@@ -545,14 +545,41 @@
                 "foreground": "#ba3c97"
             }
 		},
-		// Custom fixes:
+        // Python fixes:
+        {
+            "name": "Python default",
+            "scope": [
+                "source.python"
+            ],
+            "settings": {
+                "foreground": "#C0CAF5"
+            }
+        },
 		{
 			"name": "Item access",
 			"scope": "meta.item-access.python",
 			"settings": {
-				"foreground": "#7DCFFF"
+				"foreground": "#73DACA"
 			}
-		},
+        },
+        {
+            "name": "Python operators",
+            "scope": [
+                "keyword.operator.logical.python",
+            ],
+            "settings": {
+                "foreground": "#BB9AF7"
+            }
+        },
+        {
+            "name": "Python decorators",
+            "scope": [
+                "entity.name.function.decorator.python",
+            ],
+            "settings": {
+                "foreground": "#89DDFF"
+            }
+        },
 		{
 			"name": "Function arguments",
 			"scope": [
