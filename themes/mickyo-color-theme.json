@@ -915,6 +915,15 @@
             }
         },
         {
+            "name": "Javascript new keyword",
+            "scope": [
+                "keyword.operator.new.js",
+            ],
+            "settings": {
+                "foreground": "#BB9AF7",
+            }
+        },
+        {
             "name": "Language methods, Keyword this with Punctuation, ES7 Bind Operator",
             "scope": [
                 "variable.language",
