@@ -359,7 +359,6 @@
         {
             "name": "Boolean, Undefined, Null",
             "scope": [
-                "variable.other.constant",
                 "punctuation.definition.constant",
                 "constant.language",
                 "support.constant",
@@ -379,6 +378,16 @@
             "settings": {
                 "fontStyle": "",
                 "foreground": "#9ece6a"
+            }
+        },
+        {
+            "name": "Constant variables",
+            "scope": [
+                "variable.other.constant",
+                "constant.other.caps.python"
+            ],
+            "settings": {
+                "foreground": "#BB9AF7",
             }
         },
         {
