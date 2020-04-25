@@ -311,10 +311,11 @@
                 "meta.directive.vue entity.other.attribute-name.html",
                 "tag.decorator.js entity.name.tag.js",
                 "tag.decorator.js punctuation.definition.tag.js",
-				"storage.modifier",
+				"storage.modifier", 
 				"entity.other.attribute-name",
 				"keyword.operator.logical.python",
-				"variable.language"
+                "variable.language",
+                "keyword.control"
             ],
             "settings": {
                 "fontStyle": "italic"
