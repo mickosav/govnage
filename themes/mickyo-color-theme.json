@@ -304,18 +304,7 @@
         {
             "name": "Italics - Comments, Storage, Keyword Flow, Vue attributes, Decorators",
             "scope": [
-                "comment",
-                "meta.var.expr storage.type",
-                "keyword.control.flow",
-                "meta.directive.vue punctuation.separator.key-value.html",
-                "meta.directive.vue entity.other.attribute-name.html",
-                "tag.decorator.js entity.name.tag.js",
-                "tag.decorator.js punctuation.definition.tag.js",
-				"storage.modifier", 
-				"entity.other.attribute-name",
-				"keyword.operator.logical.python",
-                "variable.language",
-                "keyword.control"
+                "comment"
             ],
             "settings": {
                 "fontStyle": "italic"
