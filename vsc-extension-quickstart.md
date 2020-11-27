@@ -23,8 +23,13 @@
 * The token colorization is done based on standard TextMate themes. Colors are matched against one or more scopes.
 
 To learn more about scopes and how they're used, check out the [color theme](https://code.visualstudio.com/api/extension-guides/color-theme) documentation.
+## Build extensition
+
+`vsce package`
 
 ## Install your extension
+`code --install-extension mickyo-0.0.1.vsix`
+
 * https://code.visualstudio.com/api/working-with-extensions/publishing-extension
 * To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
 * To share your extension with the world, read on https://code.visualstudio.com/docs about publishing an extension.
