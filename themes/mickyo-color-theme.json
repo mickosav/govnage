@@ -700,7 +700,8 @@
             "scope": [
                 "meta.definition.variable variable.other.constant",
                 "meta.definition.variable variable.other.readwrite",
-                "variable.other.declaration"
+                "variable.other.declaration",
+                "variable.other.readwrite.alias",
             ],
             "settings": {
                 "foreground": "#b7c1ec"
@@ -719,7 +720,6 @@
             "scope": [
                 "support.class",
                 "support.type",
-                "variable.other.readwrite.alias",
                 "support.orther.namespace.use.php",
                 "meta.use.php",
                 "support.other.namespace.php",
